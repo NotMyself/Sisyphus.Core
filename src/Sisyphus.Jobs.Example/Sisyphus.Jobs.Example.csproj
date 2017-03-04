@@ -2,14 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.0</TargetFramework>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>..\Sisyphus.Service\bin\Debug\</OutputPath>
+    <OutputPath>bin\Debug\netcoreapp1.0\</OutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\Sisyphus.Service\bin\Release\</OutputPath>
+    <OutputPath>bin\Release\netcoreapp1.0\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

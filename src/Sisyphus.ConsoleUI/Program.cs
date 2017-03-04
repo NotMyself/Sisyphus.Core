@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sisyphus.Service
+namespace Sisyphus.ConsoleUI
 {
     class Program
     {

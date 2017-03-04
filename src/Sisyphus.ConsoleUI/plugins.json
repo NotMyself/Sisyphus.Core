@@ -1,0 +1,6 @@
+﻿{
+  "modules": [
+    { "type": "Sisyphus.Jobs.Example.ExampleModule, Sisyphus.Jobs.Example" },
+    { "type": "Sisyphus.Jobs.HealthCheck.HealthCheckModule, Sisyphus.Jobs.HealthCheck" }
+  ]
+}

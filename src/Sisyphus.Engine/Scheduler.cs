@@ -2,7 +2,7 @@
 using Autofac;
 using Sisyphus.Core;
 
-namespace Sisyphus.Service
+namespace Sisyphus.Engine
 {
     public class Scheduler
     {

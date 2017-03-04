@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.0</TargetFramework>
   </PropertyGroup>
 
@@ -10,6 +9,7 @@
     <PackageReference Include="Autofac.Configuration" Version="4.0.1" />
     <PackageReference Include="Hangfire.Core" Version="1.6.9" />
     <PackageReference Include="Hangfire.SqlServer" Version="1.6.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.2.0-preview1-23730" />
   </ItemGroup>
 
   <ItemGroup>
