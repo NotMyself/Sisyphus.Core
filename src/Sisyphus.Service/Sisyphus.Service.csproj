@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.4.0" />
+    <PackageReference Include="Autofac.Configuration" Version="4.0.1" />
+    <PackageReference Include="Hangfire.Core" Version="1.6.9" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.6.9" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Sisyphus.Core\Sisyphus.Core.csproj" />
   </ItemGroup>
 
