@@ -1,3 +1,4 @@
 [submodule "Hangfire.Autofac"]
 	path = src/submodules
 	url = https://github.com/NotMyself/Hangfire.Autofac.git
+	branch = master
